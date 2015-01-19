@@ -1,0 +1,8 @@
+In order to run or build the project, it is possible to either:
++ Open the project with Eclipse
+Or:
++ Use Maven to build and run the project
+
+To run the simulation of the resource scheduler system using Maven, point the current directory to the location of the pom.xml, and type the following command in terminal:
+
+mvn package
