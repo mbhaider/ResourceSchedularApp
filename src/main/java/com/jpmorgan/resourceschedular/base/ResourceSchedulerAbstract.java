@@ -95,7 +95,7 @@ public abstract class ResourceSchedulerAbstract extends ResourceScheduler {
 				try {
 					// Wait for messages to arrive
 					System.out.println();
-					System.out.println("Waiting for messages...");
+					System.out.println("Schedular Started, Waiting for messages...");
 					waitForMessages();
 					System.out.println(messages);
 					synchronized (messages) {
