@@ -70,7 +70,7 @@ public class ResourceManagerSimple extends ResourceManager {
 		res.start(msg, gateway, resourceEnds);
 		updateAvailableResource();
 		
-		System.out.print("Sent: " + msg + ", ");
+		System.out.print("Message Sent: " + msg + ", ");
 	}
 
 	/***
